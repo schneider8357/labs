@@ -62,18 +62,22 @@ def hello_world():
 **Agora, vamos entender o código acima e também o trecho da documentação do flask que explica esse código.**
 
 > First we imported the Flask class. An instance of this class will be our WSGI application.
+
 Esta parte refere-se à primeira linha do código, `from flask import Flask`.
 O nome `Flask`, com F maiúsculo, é a classe Flask. A nossa aplicação será uma instância (ou objeto) dessa classe.
 
 > Next we create an instance of this class. The first argument is the name of the application’s module or package. `__name__` is a convenient shortcut for this that is appropriate for most cases. This is needed so that Flask knows where to look for resources such as templates and static files.
+
 Esta parte refere-se à linha `app = Flask(__name__)`.
 A variável `app` recebe a instância (objeto) da classe Flask, e o parâmetro passado dentro dos parênteses é o nome da app. Por padrão, no Python, essa variável especial `__name__` contém o nome do seu módulo, nesse caso será `__main__`.
 
 > We then use the route() decorator to tell Flask what URL should trigger our function.
+
 O decorator `@app.route("/")` associa uma URL a uma função do Python. Nesse caso, a URL "/" refere-se ao índice do site. Por exemplo, quando você acessa o site <https://youtube.com>, sem mais nada depois do `.com`, você está acessando a rota "/" do site.
 Logo abaixo do `app.route()`, há a linha `def hello_world():`, que declara a função que será executada quando a URL "/" do site for acessada.
 
 > The function returns the message we want to display in the user’s browser. The default content type is HTML, so HTML in the string will be rendered by the browser.
+
 Esse trecho refere-se à linha `return "<p>Hello, World!</p>"`. A função retornará o valor `"<p>Hello, World!</p>"` para o cliente que acessou o site na rota "/", e esse valor deverá ser renderizado e exibido em sua tela pelo navegador.
 
 
