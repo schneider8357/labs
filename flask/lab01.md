@@ -104,7 +104,7 @@ E tente executar seu script normalmente, como você geralmente faz com qualquer 
 
 ## Acessando sua primeira app
 
-Agora, o Flask está executando em seu computador e aguardando algum cliente acessar a app.
+Agora, o Flask está em execução em seu computador e aguardando algum cliente acessar a app.
 
 Para acessar a app e validar se o hello world está funcionando corretamente, abra o seu navegador na URL <http://127.0.0.1:5000>. Caso a mensagem "Hello, World!" apareça em sua tela: **parabéns**, você concluiu este primeiro lab! :tada: :tada:
 
@@ -117,5 +117,5 @@ Mas, antes de finalizarmos, responda às seguintes perguntas:
 3. Qual a importância de uma documentação bem escrita em seus projetos?
 
 
-E agora, vamos ao próximo passo de [criar uma rota dinâmica](lab02.md).
+E agora, vamos ao próximo passo de [entender o que são as rotas e criar as nossas próprias rotas](lab02.md).
 
