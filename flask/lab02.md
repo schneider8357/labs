@@ -70,7 +70,7 @@ Nós utilizamos a URL `http://127.0.0.1:5000` para acessar a app. Essa URL pode 
 Nesse caso, não temos somente o `host`, mas sim a combinação `host:port`.
 
 O `host` é o endereço IP `127.0.0.1`. Esse endereço em específico é chamado de `localhost`, e representa o seu próprio computador.
-(Na linguística, o `localhost` é análogo ao pronome pessoal "eu", que sempre refere-se à própria pessoa.)
+(O `localhost` é análogo ao pronome pessoal "eu", que sempre refere-se à própria pessoa.)
 
 A `port` é um número inteiro entre 0 e 65535.
 Esse número representa um serviço.
